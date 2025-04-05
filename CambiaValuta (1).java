@@ -1,3 +1,10 @@
+// fabio morale
+// commenti esercitazione
+
+
+
+
+
 package cambiavaluta;
 
 import java.awt.EventQueue;
@@ -14,6 +21,7 @@ import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
+// Classe principale
 public class CambiaValuta {
 
     private JFrame frame;
@@ -58,7 +66,7 @@ public class CambiaValuta {
      */
     private void initialize() {
 
-
+        // finestra principale
         frame = new JFrame();
         frame.setBounds(100, 100, 450, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
